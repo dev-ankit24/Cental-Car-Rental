@@ -26,7 +26,7 @@ router.get("/contact",contact)
 router.post("/contact",encoder, contactStore)
 
 
-// Admin Routes
+//this routes for admin
 router.use("/admin",AdminRouter)
 
 router.get("/*",eroor404)
